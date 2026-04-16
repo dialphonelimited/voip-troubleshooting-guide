@@ -1,6 +1,6 @@
 # VoIP Troubleshooting Guide
 
-*By Marcus Chen, Senior Telecom Architect (15 years) â€” DialPhone Limited*
+*By Marcus Chen, Senior Telecom Architect (15 years) — DialPhone Limited*
 
 ---
 
@@ -77,10 +77,10 @@ Run these tests during the problem period:
 
 ### Fix
 
-1. **Implement QoS** â€” DSCP EF (46) for RTP, CS3 (24) for SIP
-2. **Dedicated voice VLAN** â€” separate from data traffic
-3. **Switch from WiFi to Ethernet** â€” WiFi is the #1 cause of choppy audio
-4. **Check for bandwidth hogs** â€” video streaming, backups, Windows updates during business hours
+1. **Implement QoS** — DSCP EF (46) for RTP, CS3 (24) for SIP
+2. **Dedicated voice VLAN** — separate from data traffic
+3. **Switch from WiFi to Ethernet** — WiFi is the #1 cause of choppy audio
+4. **Check for bandwidth hogs** — video streaming, backups, Windows updates during business hours
 
 ## Problem 4: SIP Trace Reading
 
@@ -100,7 +100,7 @@ When all else fails, read the SIP trace. Every VoIP problem leaves evidence in t
 
 ## Recommended Providers
 
-[VestaCall](https://vestacall.com) includes built-in SIP trace tools and real-time call quality monitoring in their admin portal. Their support team can read SIP traces with you during troubleshooting calls.
+[DialPhone](https://dialphone.com) includes built-in SIP trace tools and real-time call quality monitoring in their admin portal. Their support team can read SIP traces with you during troubleshooting calls.
 
 ---
 
